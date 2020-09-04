@@ -1,0 +1,269 @@
+body{
+    background-color: #101010;
+    font-family: sans-serif;
+}
+
+#navigation{
+    width:75%;
+    margin: 0px auto 0px auto;
+    background-color: #191919;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    position: relative;
+    top:15px;
+}
+
+#logo{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+}
+
+#logo span{
+    width:5%;
+    height: 100%;
+    white-space: pre;
+    background-color: #d54ab6;
+}
+
+#navbar{
+    height:100%;
+    list-style: none;
+    color:white;
+    padding:0px;
+    margin: 0px 30px 0px 0px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+#navbar li{
+    display: inline-block;
+    margin:0px;
+    padding: 25px 10px;
+    font-size: small;
+}
+
+.active{
+    background-color: #303030;
+}
+
+#section0{
+    width: 100%;
+    padding: 200px 0px;
+    background-image: url('placeholder.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#section0 div{
+    font-size: large;
+    width: 50%;
+    margin: 0px auto;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-end;
+    
+}
+
+#section0 div h1{
+    margin:0px;    
+}
+
+#section1{
+    display: flex;
+    width: 80%;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin:0px auto 40px auto;
+    position: relative;
+    bottom: 15px;
+}
+
+.s1box{
+    color: white;
+    padding:40px 20px;
+    margin: 0px 20px 40px 20px;
+    width:250px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+#section2{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    width: 80%;
+    background-color: #191919;
+    margin:0px auto 40px auto;
+}
+
+.s2box{
+    width: 50%;
+}
+
+.words{
+    padding-left:15px;
+}
+
+#section3{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin:0px auto 40px auto;
+    text-align:center;
+}
+
+.imagesBox{
+    position: relative;
+}
+
+.imagesBox ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imagesBox ul li{
+    height: 30vh;
+    flex-grow: 1;
+}
+
+.imagesBox ul li img{
+    max-height: 100%;
+    min-width: 100%;
+    object-fit: cover;
+    vertical-align: bottom;
+}
+
+.nobottommargin{
+    margin-bottom: 0px;
+}
+
+#footer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+    margin:0px auto 20px auto;
+    text-align:start;
+    background-color: #191919;
+}
+
+.footerSection{
+    max-width: 400px;
+    margin:40px 40px 40px 20px;
+}
+
+
+#footer2{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.icons{
+    list-style: none;
+}
+
+.icons li{
+    display: inline;
+    background: #303030;
+    margin-left: 5px;
+    padding:10px;
+}
+
+.img{
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+
+.input{
+    border: 2px solid white;
+    background-color: transparent;
+    font-weight: bold;
+    color: white;
+    padding: 5px;
+    padding-bottom: 10px;
+    width: 80%;
+}
+
+.input::placeholder{
+    color: white;
+}
+
+.control{
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.btn{
+    border:2px solid white;
+    color: white;
+    padding: 12px 18px;
+    font-weight: bold;
+    background: transparent;
+    cursor: pointer;
+}
+
+.imgRow1Width{
+    width:300px;
+}
+
+.imgRow2Width{
+    width:250px;
+}
+
+.viewImage{
+    cursor: pointer;
+}
+
+.viewImage:hover{
+    opacity: 70%;
+}
+
+
+#imageView{
+    position: fixed;
+    z-index: 1;
+    padding-top:100px;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: none;
+    height: 100%;
+    overflow: auto;
+    background-color:rgba(0, 0, 0, 0.9);
+    cursor: pointer;
+}
+
+#imageView img{
+    margin: 0px auto;
+    opacity: 100%;
+}
+
+.orange{
+    background-color:#c13000;
+}
+
+.lightblue{
+    background-color:#009588;
+}
+
+.yellow{
+    background-color:#ffa900;
+}
+
+.white{
+    color:white;
+}
+
+.gray{
+    color: #707070;
+}
